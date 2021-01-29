@@ -22,13 +22,13 @@ We will hash the user's password using `bcryptjs`, and use JSON Web Tokens and t
 
 ### Task 1: Project Set Up
 
-- [ ] Fork the project and clone it to your machine.
-- [ ] Set up your fork settings in Github to submit via Codegrade.
-- [ ] Create a new branch: `git checkout -b <firstName-lastName>`.
-- [ ] Implement the project on your newly created branch, committing changes regularly.
-- [ ] Push commits regularly: `git push origin <firstName-lastName>`.
-- [ ] Run the tests inside `./api/server.test.js` locally by executing `npm test`.
-- [ ] Run the Codegrade tests locally by executing `npm run codegrade`.
+- [X] Fork the project and clone it to your machine.
+- [X] Set up your fork settings in Github to submit via Codegrade.
+- [X] Create a new branch: `git checkout -b <firstName-lastName>`.
+- [X] Implement the project on your newly created branch, committing changes regularly.
+- [X] Push commits regularly: `git push origin <firstName-lastName>`.
+- [X] Run the tests inside `./api/server.test.js` locally by executing `npm test`.
+- [X] Run the Codegrade tests locally by executing `npm run codegrade`.
 
   **Important:**
 
@@ -38,9 +38,9 @@ We will hash the user's password using `bcryptjs`, and use JSON Web Tokens and t
 
 Your finished project must include all of the following requirements (further instructions are found inside each file):
 
-- [ ] An authentication workflow with functionality for account creation and login, implemented inside `./api/auth/auth-router.js`.
-- [ ] Middleware used to restrict access to resources from non-authenticated requests, implemented inside `./api/middleware/restricted.js`.
-- [ ] A minimum of 2 tests per API endpoint, implemented inside `./api/server.test.js`. The `package.json` includes the "test" script.
+- [X] An authentication workflow with functionality for account creation and login, implemented inside `./api/auth/auth-router.js`.
+- [X] Middleware used to restrict access to resources from non-authenticated requests, implemented inside `./api/middleware/restricted.js`.
+- [X] A minimum of 2 tests per API endpoint, implemented inside `./api/server.test.js`. The `package.json` includes the "test" script.
 
 **Notes:**
 
