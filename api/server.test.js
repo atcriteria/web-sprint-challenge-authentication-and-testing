@@ -1,7 +1,7 @@
 const request = require('supertest');
 const db = require('../data/dbConfig');
 const server = require('./server');
-const bcrypt = require('bcryptjs');
+// const bcrypt = require('bcryptjs');
 const data = require('./jokes/jokes-data');
 
 const first = {username: "first", password: "password"};
